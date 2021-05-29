@@ -28,9 +28,9 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: update readme
       env:
-        gitee_token: ${{ secrets.gitee_token }}
-        gitee_gist_id: ${{ secrets.gitee_gist_id }}
-        gitee_gist_file_name: ${{ secrets.gitee_gistee_gist_file_name }}
+        gitee_token: ${{ secrets.GITEE_TOKEN }}
+        gitee_gist_id: ${{ secrets.GITEE_GIST_ID }}
+        gitee_gist_file_name: ${{ secrets.GITEE_GIST_FILE_NAME }}
       run: |
         # fetch new ip content and update readme file
         python fetch_ips.py
