@@ -108,12 +108,13 @@ def get_ip(session: requests.session, raw_url: str):
 
 @retry(tries=3)
 def update_gitee_gist(session: requests.session, host_content):
-#     gitee_token = os.getenv("GITEE_TOKEN")
-#     gitee_gist_id = os.getenv("GITEE_GIST_ID")
-#     gist_file_name = os.getenv("GITEE_GIST_FILE_NAME")
-    print(f'1. {os.getenv("gitee_token")} \n2. {os.getenv("gitee_gist_id")} \n 3. {os.getenv("gitee_gist_file_name")} \n4. {os.getenv("secrets")}') 
-    gitee_token = "d2bf9f4136a13a7d284aa71fb1d62a16"
-    gitee_gist_id = "h4dre3mblf8uknvx9y2wq35"
+#     gitee_token = os.getenv("gitee_token")
+    gitee_gist_id = os.getenv("gitee_gist_id")
+    gist_file_name = os.getenv("gitee_gist_file_name")
+    print(f'1. {os.getenv("gitee_token")} \n2. {os.getenv("gitee_gist_id")} \n3. {os.getenv("gitee_gist_file_name")} \n}') 
+    #     gitee_token = "d2bf9f4136a13a7d284aa71fb1d62a16"
+    #     gitee_gist_id = "h4dre3mblf8uknvx9y2wq35"
+    print(os.environ,"os.environ")
     gist_file_name = "host"
     url = "https://gitee.com/api/v5/gists/{}".format(gitee_gist_id)
     headers = {
