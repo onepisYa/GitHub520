@@ -31,7 +31,6 @@ jobs:
         gitee_token: ${{ secrets.GITEE_TOKEN }}
         gitee_gist_id: ${{ secrets.GITEE_GIST_ID }}
         gitee_gist_file_name: ${{ secrets.GITEE_GIST_FILE_NAME }}
-        a: ${{ secrets.A }}
       run: |
         # fetch new ip content and update readme file
         python fetch_ips.py
