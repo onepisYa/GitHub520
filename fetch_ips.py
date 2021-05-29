@@ -111,11 +111,6 @@ def update_gitee_gist(session: requests.session, host_content):
     gitee_token = os.getenv("gitee_token")
     gitee_gist_id = os.getenv("gitee_gist_id")
     gist_file_name = os.getenv("gitee_gist_file_name")
-    print(f'1. {os.getenv("gitee_token")} \n2. {os.getenv("gitee_gist_id")} \n3. {os.getenv("gitee_gist_file_name")}') 
-    #     gitee_token = "d2bf9f4136a13a7d284aa71fb1d62a16"
-    #     gitee_gist_id = "h4dre3mblf8uknvx9y2wq35"
-    print(os.environ,"os.environ")
-    
     gist_file_name = "host"
     url = "https://gitee.com/api/v5/gists/{}".format(gitee_gist_id)
     headers = {
