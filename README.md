@@ -29,14 +29,14 @@
 185.199.108.154               github.githubassets.com
 140.82.113.22                 central.github.com
 185.199.108.133               desktop.githubusercontent.com
-185.199.108.153               assets-cdn.github.com
+185.199.111.153               assets-cdn.github.com
 185.199.108.133               camo.githubusercontent.com
 185.199.108.133               github.map.fastly.net
 199.232.69.194                github.global.ssl.fastly.net
-140.82.114.3                  gist.github.com
+140.82.113.4                  gist.github.com
 185.199.108.153               github.io
 140.82.112.3                  github.com
-140.82.112.5                  api.github.com
+140.82.114.6                  api.github.com
 185.199.108.133               raw.githubusercontent.com
 185.199.108.133               user-images.githubusercontent.com
 185.199.108.133               favicons.githubusercontent.com
@@ -48,23 +48,23 @@
 185.199.108.133               avatars0.githubusercontent.com
 185.199.108.133               avatars.githubusercontent.com
 140.82.112.9                  codeload.github.com
-52.217.235.193                github-cloud.s3.amazonaws.com
-52.217.102.36                 github-com.s3.amazonaws.com
-54.231.197.233                github-production-release-asset-2e65be.s3.amazonaws.com
-54.231.201.49                 github-production-user-asset-6210df.s3.amazonaws.com
+52.217.234.33                 github-cloud.s3.amazonaws.com
+52.217.199.177                github-com.s3.amazonaws.com
+52.217.96.156                 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.160.81                 github-production-user-asset-6210df.s3.amazonaws.com
 52.217.227.161                github-production-repository-file-5c1aeb.s3.amazonaws.com
 185.199.108.153               githubstatus.com
 64.71.144.202                 github.community
 185.199.108.133               media.githubusercontent.com
 
 
-# Update time: 2022-02-17T10:19:38+08:00
+# Update time: 2022-02-17T12:12:31+08:00
 # Star me GitHub url: https://github.com/521xueweihan/GitHub520
 # GitHub520 Host End
 
 ```
 
-上面内容会自动定时更新，保证最新有效。数据更新时间：2022-02-17T10:19:38+08:00（内容无变动不会更新）
+上面内容会自动定时更新，保证最新有效。数据更新时间：2022-02-17T12:12:31+08:00（内容无变动不会更新）
 
 ### 2.1 手动方式
 #### 2.1.1 修改 hosts 文件
