@@ -48,7 +48,7 @@
 185.199.110.133               avatars0.githubusercontent.com
 185.199.110.133               avatars.githubusercontent.com
 140.82.114.9                  codeload.github.com
-52.216.82.56                  github-cloud.s3.amazonaws.com
+52.216.33.49                  github-cloud.s3.amazonaws.com
 52.216.143.172                github-com.s3.amazonaws.com
 52.217.195.65                 github-production-release-asset-2e65be.s3.amazonaws.com
 52.217.1.44                   github-production-user-asset-6210df.s3.amazonaws.com
@@ -58,13 +58,13 @@
 185.199.110.133               media.githubusercontent.com
 
 
-# Update time: 2022-05-04T02:13:50+08:00
+# Update time: 2022-05-04T04:12:38+08:00
 # Star me GitHub url: https://github.com/521xueweihan/GitHub520
 # GitHub520 Host End
 
 ```
 
-上面内容会自动定时更新，保证最新有效。数据更新时间：2022-05-04T02:13:50+08:00（内容无变动不会更新）
+上面内容会自动定时更新，保证最新有效。数据更新时间：2022-05-04T04:12:38+08:00（内容无变动不会更新）
 
 ### 2.1 手动方式
 #### 2.1.1 修改 hosts 文件
