@@ -57,13 +57,13 @@
 0.0.0.0                       media.githubusercontent.com
 
 
-# Update time: 2024-03-12T14:02:57+08:00
+# Update time: 2024-03-12T16:02:58+08:00
 # Star me GitHub url: https://github.com/521xueweihan/GitHub520
 # GitHub520 Host End
 
 ```
 
-上面内容会自动定时更新，保证最新有效。数据更新时间：2024-03-12T14:02:57+08:00（内容无变动不会更新）
+上面内容会自动定时更新，保证最新有效。数据更新时间：2024-03-12T16:02:58+08:00（内容无变动不会更新）
 
 ### 2.1 手动方式
 #### 2.1.1 修改 hosts 文件
